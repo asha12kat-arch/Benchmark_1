@@ -189,7 +189,7 @@ export default function HomeScreen({ navigate }: Props) {
             </div>
 
             <p className="font-['Young_Serif:Regular',sans-serif] leading-[normal] not-italic relative shrink-0 text-[24px] sm:text-[40px] text-white whitespace-nowrap">
-              {balanceVisible ? "$15,000,000.00" : "••••••••"}
+              {balanceVisible ? "$15,005,000.00" : "••••••••"}
             </p>
 
             <div className="h-px relative shrink-0 w-full bg-[rgba(255,255,255,0.12)]" />
