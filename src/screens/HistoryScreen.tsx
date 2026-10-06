@@ -13,6 +13,14 @@ const TRANSACTIONS = [
   },
   {
     id: "2",
+    merchant: "Wired Deposit",
+    category: "Deposit",
+    date: "2026",
+    amount: 5000,
+    icon: "W",
+  },
+  {
+    id: "3",
     merchant: "Opening Balance",
     category: "Deposit",
     date: "2026",
