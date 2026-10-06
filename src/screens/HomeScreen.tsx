@@ -202,7 +202,7 @@ export default function HomeScreen({ navigate }: Props) {
                 </p>
 
                 <p className="font-['Geist:SemiBold',sans-serif] font-semibold relative shrink-0 text-[15px] text-white">
-                  {balanceVisible ? "$15,000,000.00" : "••••••"}
+                  {balanceVisible ? "$15,005,000.00" : "••••••"}
                 </p>
               </div>
             </div>
