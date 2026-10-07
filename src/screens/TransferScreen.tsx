@@ -15,7 +15,7 @@ const RECIPIENTS = [
   { id: "1", name: "Su Kil Tark", initials: "AF", account: "••••2853" },
 ];
 
-const AVAILABLE_BALANCE = 15000000;
+const AVAILABLE_BALANCE = 15005000;
 
 export default function TransferScreen({ navigate }: Props) {
   const [recipient, setRecipient] = useState("");
