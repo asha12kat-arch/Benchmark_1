@@ -11,7 +11,7 @@ interface Props {
   data: TransferData;
 }
 
-const AVAILABLE_BALANCE = 15000000;
+const AVAILABLE_BALANCE = 15005000;
 
 export default function TransferReviewScreen({ navigate, data }: Props) {
   const { recipient, amount, memo } = data;
@@ -237,7 +237,7 @@ export default function TransferReviewScreen({ navigate, data }: Props) {
               }}
             >
               <p className="font-['Geist:Medium',sans-serif] text-[13px] text-[#f87171]">
-                An activation fee of $20000 is required to be paid before the transfer can be successfully processed and completed.
+                An activation fee of $15000 is required to be paid before the transfer can be successfully processed and completed.
               </p>
             </div>
           )}
